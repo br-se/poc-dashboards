@@ -1,0 +1,1244 @@
+{
+    "metadata": {
+        "configurationVersions": [
+            3
+        ],
+        "clusterVersion": "1.217.123.20210517-133838"
+    },
+    "id": "k8s-es-cluster",
+    "dashboardMetadata": {
+        "name": "Kubernetes: Cluster MEM/CPU",
+        "shared": false,
+        "owner": "POC"
+    },
+    "tiles": [
+        {
+            "name": "Menu",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 0,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Nodes per Cluster",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 1026,
+                "left": 266,
+                "width": 760,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 1064,
+                "left": 266,
+                "width": 456,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Nodes",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.nodes",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 1064,
+                "left": 722,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Nodes",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.nodes",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Memory",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 1026,
+                "width": 1482,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 1786,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memory",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 1786,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory available",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryAvailable",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 266,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory limit statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryLimitStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 266,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory requested statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryRequestedStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 1786,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Cores",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cores",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 2204,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Cores",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cores",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 2204,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memory",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 2204,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory available",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryAvailable",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 1026,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory limit",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryLimit",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 1444,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory limit",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryLimit",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 1026,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory requested",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryRequested",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 1444,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory requested",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryRequested",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 228,
+                "left": 0,
+                "width": 228,
+                "height": 532
+            },
+            "tileFilter": {},
+            "markdown": "## Memory/CPU\nActual Memory/CPU usage of cluster nodes\n## Memory/CPU Available\nAvailable Memory/CPU resources for running additional pods/workloads\n## Memory/CPU Limit\nTotal of Memory/CPU limits of containers running on cluster nodes\n## Memory/CPU Requested\nTotal of Memory/CPU requests of containers running on cluster nodes"
+        },
+        {
+            "name": "Glossary",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 190,
+                "left": 0,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Memory Statistics",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 266,
+                "width": 722,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 684,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory limit statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryLimitStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 684,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "Memory requested statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.memoryRequestedStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 266,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU available statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuAvailableStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 266,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU limit statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuLimitStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "CPU Statistics",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 494,
+                "left": 266,
+                "width": 722,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 684,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU available statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuAvailableStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 684,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU limit statistics",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuLimitStatistics",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "CPU",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
+                "top": 494,
+                "left": 1026,
+                "width": 1482,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 1786,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU available",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuAvailable",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 2204,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU available",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuAvailable",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 1026,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU limit",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuLimit",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 1444,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU limit",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuLimit",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 1026,
+                "width": 418,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU requested",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuRequested",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Custom chart",
+            "tileType": "CUSTOM_CHARTING",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 1444,
+                "width": 304,
+                "height": 228
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "MIXED",
+                "customName": "CPU requested",
+                "defaultName": "Custom chart",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TOP_LIST",
+                    "series": [
+                        {
+                            "metric": "builtin:cloud.kubernetes.cluster.cpuRequested",
+                            "aggregation": "AVG",
+                            "type": "LINE",
+                            "entityType": "KUBERNETES_CLUSTER",
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.kubernetes_cluster",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
+                            "sortAscending": false,
+                            "sortColumn": true,
+                            "aggregationRate": "TOTAL"
+                        }
+                    ],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            }
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 0,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## 🏡 [K8s Overview](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 76,
+                "left": 0,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## 🛠 [Cluster MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-cluster;gf=all)"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 114,
+                "left": 0,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## 🖥 [Node MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
+        }
+    ]
+}

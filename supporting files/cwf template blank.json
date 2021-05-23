@@ -1,0 +1,20 @@
+{
+    "html": "<div id=\"workflow\"><input type=\"hidden\" id=\"workflowConfigJSON\" value=\"{&quot;persona&quot;:[&quot;__persona__&quot;],&quot;&quot;:&quot;Done&quot;,&quot;usecase&quot;:&quot;__usecase__&quot;,&quot;workflowName&quot;:&quot;__workflowName__&quot;,&quot;workflowStatus&quot;:&quot;__workflowStatus__&quot;,&quot;githubUser&quot;:&quot;__githubUser__&quot;,&quot;githubRepo&quot;:&quot;__githubRepo__&quot;,&quot;githubPath&quot;:&quot;__githubPath__&quot;,&quot;overviewDB&quot;:&quot;__overviewDB__&quot;,&quot;readme&quot;:&quot;__readme__&quot;,&quot;blogURL&quot;:&quot;__blogURL__&quot;,&quot;addBackButtons&quot;:true,&quot;powerups&quot;:false}\">\n        <div class=\"workflowPage activePage\"><div class=\"workflowSections\">\n        \n    \n    <div class=\"workflowSection\" tabindex=\"0\">\n        <div class=\"workflowSectionPopup hidden\">\n                <div><a href=\"#workflowBuilder\" class=\"workflowSectionAddInput\">+</a></div>\n                <div><a href=\"#workflowBuilder\" class=\"workflowSectionDelete\">❌</a></div>\n                <div><a href=\"#workflowBuilder\" class=\"workflowSectionUp\">🔼</a></div>\n                <div><a href=\"#workflowBuilder\" class=\"workflowSectionDown\">🔽</a></div>\n            </div>\n        <h3 contenteditable=\"true\">No user input is needed. Click \"Done\" to deploy the dashboards.</h3>\n    </div></div></div></div>",
+    "config": {
+        "persona": [
+            "__persona__"
+        ],
+        "": "Done",
+        "usecase": "__usecase__",
+        "workflowName": "__workflowName__",
+        "workflowStatus": "__workflowStatus__",
+        "githubUser": "__githubUser__",
+        "githubRepo": "__githubRepo__",
+        "githubPath": "",
+        "overviewDB": "__overviewDB__",
+        "readme": "__readme__",
+        "blogURL": "",
+        "addBackButtons": true,
+        "powerups": false
+    }
+}

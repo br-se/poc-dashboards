@@ -1,0 +1,336 @@
+{
+    "metadata": {
+        "configurationVersions": [
+            3
+        ],
+        "clusterVersion": "1.214.112.20210409-064503"
+    },
+    "id": "tip-pt-mobile",
+    "dashboardMetadata": {
+        "name": "Mobile User Journey",
+        "shared": false,
+        "owner": "POC",
+        "dashboardFilter": {
+            "timeframe": "l_2_HOURS"
+        }
+    },
+    "tiles": [
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 304,
+                "left": 152,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(usersessionid) as \"Abandons\" from usersession where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\")) and not ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 304,
+                "left": 836,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select 0 as \"Abandons\" from usersession limit 1",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 152,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Home](#dashboard;id=bbbbbbbb-a003-a001-0001-000000000026)"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 836,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Purchase](#dashboard;id=bbbbbbbb-a003-a001-0002-000000000026)"
+        },
+        {
+            "name": "Sessions",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 114,
+                "left": 0,
+                "width": 152,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Sessions](#usersearchoverview;filtrfilterApplication=MOBILE_APPLICATION-98132D4F42F44A32)"
+        },
+        {
+            "name": "Abandons",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 342,
+                "left": 0,
+                "width": 152,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Abandons](#dashboard;id=bbbbbbbb-a003-a001-0003-000000000026)"
+        },
+        {
+            "name": "Duration",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 494,
+                "left": 0,
+                "width": 152,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Duration](#mobileperformanceanalysis;appId=MOBILE_APPLICATION-98132D4F42F44A32;visiblepart=action)"
+        },
+        {
+            "name": "Errors",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 646,
+                "left": 0,
+                "width": 152,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Crashes](#mobileappoverview;appId=MOBILE_APPLICATION-98132D4F42F44A32;visiblepart=Crashes)"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 456,
+                "left": 152,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select avg(useraction.duration) as \"Duration\" from useraction where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 456,
+                "left": 836,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select avg(useraction.duration) as \"Duration\" from useraction where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"bookJourney\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 304,
+                "left": 380,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(usersessionid) as \"Abandons\" from usersession where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\")) and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\")) and not ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performLogin\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 304,
+                "left": 608,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(usersessionid) as \"Abandons\" from usersession where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\")) and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\")) and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performLogin\")) and not ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"bookJourney\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 456,
+                "left": 380,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select avg(useraction.duration) as \"Duration\" from useraction where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\")) ",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "DTAQL",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 456,
+                "left": 608,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select avg(useraction.duration) as \"Duration\" from useraction where useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performLogin\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 380,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Search](#dashboard;id=bbbbbbbb-a003-a001-0004-000000000026)"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 608,
+                "width": 228,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "## [Login](#dashboard;id=bbbbbbbb-a003-a001-0005-000000000026)"
+        },
+        {
+            "name": "User Sessions Query",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 152,
+                "width": 912,
+                "height": 266
+            },
+            "tileFilter": {},
+            "customName": "Mobile User Journey",
+            "query": "SELECT FUNNEL(((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\")) AS \"Home\", ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\")) AS \"Search\", ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performLogin\")) AS \"Login\", ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"bookJourney\")) AS \"Purchase\") FROM usersession where useraction.application in (\"easyTravel Mobile (new)\")  ",
+            "type": "FUNNEL",
+            "timeFrameShift": "dynamic",
+            "limit": 50
+        },
+        {
+            "name": "User Sessions Query",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 608,
+                "left": 152,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(*) as \"Crashes\" from usersession where hascrash=true and useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"Loading easyTravel\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic",
+            "limit": 50
+        },
+        {
+            "name": "User Sessions Query",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 608,
+                "left": 380,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(*) as \"Crashes\" from usersession where hascrash=true and useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performSearch\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic",
+            "limit": 50
+        },
+        {
+            "name": "User Sessions Query",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 608,
+                "left": 608,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(*) as \"Crashes\" from usersession where hascrash=true and useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"performLogin\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic",
+            "limit": 50
+        },
+        {
+            "name": "User Sessions Query",
+            "tileType": "DTAQL",
+            "configured": true,
+            "bounds": {
+                "top": 608,
+                "left": 836,
+                "width": 228,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": " ",
+            "query": "select count(*) as \"Crashes\" from usersession where hascrash=true and useraction.application in (\"easyTravel Mobile (new)\")   and ((useraction.application=\"easyTravel Mobile (new)\" and useraction.name=\"bookJourney\"))",
+            "type": "SINGLE_VALUE",
+            "timeFrameShift": "dynamic",
+            "limit": 50
+        }
+    ]
+}

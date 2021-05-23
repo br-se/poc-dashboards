@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "configurationVersions": [
+            3
+        ],
+        "clusterVersion": "1.217.123.20210517-133838"
+    },
+    "id": "d7af1a84-ac1b-44f2-b84a-7e47acd7e842",
+    "dashboardMetadata": {
+        "name": "POC Dynatrace - Primeros Pasos",
+        "shared": false,
+        "owner": "POC"
+    },
+    "tiles": [
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 0,
+                "width": 152,
+                "height": 190
+            },
+            "tileFilter": {},
+            "markdown": "[Tatico](#dashboard;gtf=-2h;id=firstday-es-tactical;gf=all)\n\n[Qualidade](#dashboard;gtf=-2h;id=firstday-es-quality;gf=all)\n\n[Negocio](#dashboard;gtf=-2h;id=firstday-es-negocios;gf=all)\n\n[Ops](#dashboard;gtf=-2h;id=firstday-es-centroops;gf=all)\n\n[EcoInfra](#dashboard;gtf=-2h;id=firstday-es-ecoinfra;gf=all)"
+        }
+    ]
+}
