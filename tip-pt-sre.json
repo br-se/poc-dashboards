@@ -5,7 +5,7 @@
         ],
         "clusterVersion": "1.214.112.20210409-064503"
     },
-    "id": "tip-pt-",
+    "id": "tip-pt-sre",
     "dashboardMetadata": {
         "name": "SRE- SLOs/SLIs",
         "shared": false,
