@@ -5,7 +5,7 @@
         ],
         "clusterVersion": "1.217.123.20210517-133838"
     },
-    "id": "6ba57318-fe1d-4ffe-a546-e058032321cb",
+    "id": "aws-es-main",
     "dashboardMetadata": {
         "name": "AWS Performance",
         "shared": false,
