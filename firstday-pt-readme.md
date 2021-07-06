@@ -1,3 +1,1 @@
-Idioma: português
-
-E-mail inicial
+Firstday PT

@@ -1,3 +1,1 @@
-Idioma: espanhol
-
-Correo inicial
+Firstday ES
