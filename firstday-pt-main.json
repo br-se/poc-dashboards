@@ -17,13 +17,311 @@
             "tileType": "MARKDOWN",
             "configured": true,
             "bounds": {
+                "top": 38,
+                "left": 0,
+                "width": 1254,
+                "height": 114
+            },
+            "tileFilter": {},
+            "markdown": "Obrigado por nos darem a oportunidade de demonstrar o potencial de nossa Plataforma Inteligente. \n\n\nO Dynatrace nasceu para incentivar a cultura colaborativa de forma autônoma pra ambientes em cloud, on-premises ou híbridos. Ele racionaliza muitas das ferramentas existentes dentro das organizações proporcionando uma comunicação alinhada uma vez que, todas as áreas estarão falando a mesma língua, ou seja, os silos deixam de existir dentro de sua empresa. Pensando nisso, já estão disponíveis em seu ambiente Dynatrace os seguinte entregáveis:"
+        },
+        {
+            "name": "Resultados do primeiro dia da POC",
+            "tileType": "HEADER",
+            "configured": true,
+            "bounds": {
                 "top": 0,
                 "left": 0,
-                "width": 152,
+                "width": 1254,
+                "height": 38
+            },
+            "tileFilter": {}
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 380,
+                "left": 0,
+                "width": 646,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Negócio Digital](https://dynatrace.com)  💰\n\nQuando temos o domínio dos usuários, fica claro o que devemos priorizar. O Dynatrace classifica automaticamente como Satisfeito, Tolerável ou Frustrado todas as sessões e ações de cada usuários. Além disso, nos permite entender as características únicas de cada um deles para que seja possível entregar experiências personalizadas para seus clientes.\n "
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 1216,
+                "left": 0,
+                "width": 646,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Cultura SRE](https://dynatrace.com)  🎯\n\nDefina seus SLOs (Service-Level Objectives, objetivos de nível de serviço) de forma inteligente utilizando as métricas corretas (SLIs), combinadas com análises poderosas e detecção de causas raiz de problemas (DAVIS).\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 570,
+                "left": 0,
+                "width": 646,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Operação Inteligente](https://dynatrace.com)  🧮\n\nA operação, precisa de uma visão clara e ágil de onde os problemas estão ocorrendo e quais serviços estão sendo afetados alinhado com as estratégias de negócio\n\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 0,
+                "width": 646,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Domine sua Infraestrutura](https://dynatrace.com)  🧱\n\nO time de infra também necessita ter uma visão ampla da saúde geral, porém com métricas específicas que fazem sentido no seu dia a dia.\n\n\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 190,
+                "left": 684,
+                "width": 570,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## Análise Proativa 🔎\nOtimize o que já está bom. Pequenos ganhos podem gerar grandes receitas e satisfação de seus clientes.\n\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 950,
+                "left": 0,
+                "width": 646,
                 "height": 190
             },
             "tileFilter": {},
-            "markdown": "[Tatico](#dashboard;gtf=-2h;id=firstday-pt-tactical;gf=all)\n\n[Qualidade](#dashboard;gtf=-2h;id=firstday-pt-quality;gf=all)\n\n[Negocio](#dashboard;gtf=-2h;id=firstday-pt-negocios;gf=all)\n\n[Ops](#dashboard;gtf=-2h;id=firstday-pt-centroops;gf=all)\n\n[EcoInfra](#dashboard;gtf=-2h;id=firstday-pt-ecoinfra;gf=all)"
+            "markdown": "## [Gates de qualidade](https://fov31014.live.dynatrace.com/ui/releases?gtf=-24h%20to%20now&gf=all&invsc=releaseName&invsd=asc)   🚦\n\nO time de dev ou qualidade podem validar suas releases garantindo a qualidade esperada e mitigando o risco quando forem para produção.\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 0,
+                "width": 646,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 722,
+                "left": 0,
+                "width": 646,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 912,
+                "left": 0,
+                "width": 646,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 380,
+                "left": 684,
+                "width": 570,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Experiência dos usuários](https://dynatrace.com)  😀\n\nO Dynatrace classifica automaticamente as ações ou páginas que devem ser priorizados para proteger sua marca.\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 570,
+                "left": 684,
+                "width": 570,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Serviços / Transações](https://fov31014.live.dynatrace.com/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topweb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111)  📈 \n\nClassifique as requests por quantidades x tempo e descubra como melhora-las.\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 342,
+                "left": 684,
+                "width": 570,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 760,
+                "left": 684,
+                "width": 570,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Banco de dados](https://fov31014.live.dynatrace.com/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topdb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%110)  🧫\n\nAnalise as consultas e entenda como elas impactam seus clientes. Utilize a função backtrace.\n\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 532,
+                "left": 684,
+                "width": 570,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 722,
+                "left": 684,
+                "width": 570,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 912,
+                "left": 684,
+                "width": 570,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 950,
+                "left": 684,
+                "width": 570,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## [Análise de CPU](https://fov31014.live.dynatrace.com/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🔥  \n\nDiminua o consumo de recursos de infraestrutura."
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 190,
+                "left": 0,
+                "width": 646,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "## Dashboards 📊\nObtenha resposta para todas as áreas e equipes de sua empresa.\n\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 342,
+                "left": 0,
+                "width": 646,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 1140,
+                "left": 684,
+                "width": 570,
+                "height": 190
+            },
+            "tileFilter": {},
+            "markdown": "## [Análise Exceptions](https://fov31014.live.dynatrace.com/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🧨 \n\nReduza a quantidade de exceptions de sua aplicação ou corrija um problema a partir dela."
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 1102,
+                "left": 684,
+                "width": 570,
+                "height": 38
+            },
+            "tileFilter": {},
+            "markdown": "*******************************"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 1140,
+                "left": 0,
+                "width": 646,
+                "height": 76
+            },
+            "tileFilter": {},
+            "markdown": "## Próximos passos 📌\n\nPara continuar evoluindo a POC siga as recomendações abaixo."
         }
     ]
 }
