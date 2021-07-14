@@ -12,11 +12,7 @@
         "owner": "POC",
         "dashboardFilter": {
             "timeframe": "e_-24h to now"
-        },
-        "tags": [
-            "Applications",
-            "Reporting"
-        ]
+        }
     },
     "tiles": [
         {
