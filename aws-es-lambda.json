@@ -14,7 +14,7 @@
     },
     "id": "aws-es-lambda",
     "dashboardMetadata": {
-        "name": "AWS - Lambda - Detalhe",
+        "name": "AWS - Lambda - Detalle",
         "shared": true,
         "owner": "POC",
         "sharingDetails": {
@@ -127,7 +127,7 @@
                 "height": 76
             },
             "tileFilter": {},
-            "markdown": "##↩ [Voltar](https://jce37063.live.dynatrace.com/#dashboard/dashboard;id=6c164588-6574-4322-adec-74affab51c9e)\n"
+            "markdown": "##↩ [Volver](#dashboard;gtf=-2h;id=aws-es-main;gf=all)\n"
         },
         {
             "name": "Custom chart",

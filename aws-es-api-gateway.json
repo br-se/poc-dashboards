@@ -14,7 +14,7 @@
     },
     "id": "aws-es-api-gateway",
     "dashboardMetadata": {
-        "name": "AWS - API Gateway - Detalhe",
+        "name": "AWS - API Gateway - Detalle",
         "shared": true,
         "owner": "POC",
         "sharingDetails": {
@@ -281,7 +281,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "##↩ [Voltar](https://jce37063.live.dynatrace.com/#dashboard;gtf=l_2_HOURS;gf=all;id=6c164588-6574-4322-adec-74affab51c9e)\n"
+            "markdown": "##↩ [Volver](#dashboard;gtf=-2h;id=aws-es-main;gf=all)\n"
         },
         {
             "name": "Request Count per API",

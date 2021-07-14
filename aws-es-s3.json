@@ -7,7 +7,7 @@
     },
     "id": "aws-es-s3",
     "dashboardMetadata": {
-        "name": "AWS - S3 - Detalhe",
+        "name": "AWS - S3 - Detalle",
         "shared": true,
         "owner": "POC"
     },

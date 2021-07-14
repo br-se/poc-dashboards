@@ -7,7 +7,7 @@
     },
     "id": "aws-es-dynamodb",
     "dashboardMetadata": {
-        "name": "AWS - DynamoDB - Detalhe",
+        "name": "AWS - DynamoDB - Detalle",
         "shared": true,
         "owner": "POC"
     },
@@ -403,7 +403,7 @@
                 "timeframe": null,
                 "managementZone": null
             },
-            "markdown": "##↩ [Voltar](https://boz56679.live.dynatrace.com/#dashboard;id=59dad613-0fcc-46c1-af1d-a6f087a42378;gtf=l_2_HOURS;gf=all)\n"
+            "markdown": "##↩ [Volver](#dashboard;gtf=-2h;id=aws-es-main;gf=all)\n"
         }
     ]
 }
