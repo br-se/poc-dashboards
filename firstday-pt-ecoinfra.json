@@ -112,6 +112,31 @@
             "tileFilter": {}
         },
         {
+            "name": "",
+            "tileType": "SERVICES",
+            "configured": true,
+            "bounds": {
+                "top": 38,
+                "left": 608,
+                "width": 608,
+                "height": 304
+            },
+            "tileFilter": {},
+            "filterConfig": {
+                "type": "SERVICE",
+                "customName": "Serviços",
+                "defaultName": "Serviços",
+                "chartConfig": {
+                    "legendShown": true,
+                    "type": "TIMESERIES",
+                    "series": [],
+                    "resultMetadata": {}
+                },
+                "filtersPerEntityType": {}
+            },
+            "chartVisible": true
+        },
+        {
             "name": "Database health",
             "tileType": "DATABASES_OVERVIEW",
             "configured": true,
@@ -284,7 +309,14 @@
                             "aggregation": "AVG",
                             "type": "LINE",
                             "entityType": "HOST",
-                            "dimensions": [],
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.host",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
                             "sortAscending": false,
                             "sortColumn": false,
                             "aggregationRate": "TOTAL"
@@ -294,7 +326,14 @@
                             "aggregation": "AVG",
                             "type": "LINE",
                             "entityType": "HOST",
-                            "dimensions": [],
+                            "dimensions": [
+                                {
+                                    "id": "0",
+                                    "name": "dt.entity.host",
+                                    "values": [],
+                                    "entityDimension": true
+                                }
+                            ],
                             "sortAscending": false,
                             "sortColumn": true,
                             "aggregationRate": "TOTAL"
@@ -506,7 +545,7 @@
                     "series": [
                         {
                             "metric": "builtin:service.dbconnections.failureRate",
-                            "aggregation": "NONE",
+                            "aggregation": "AVG",
                             "type": "LINE",
                             "entityType": "SERVICE",
                             "dimensions": [
@@ -580,19 +619,6 @@
                 "height": 152
             },
             "tileFilter": {}
-        },
-        {
-            "name": "Service health",
-            "tileType": "SERVICES",
-            "configured": true,
-            "bounds": {
-                "top": 38,
-                "left": 608,
-                "width": 608,
-                "height": 304
-            },
-            "tileFilter": {},
-            "chartVisible": true
         }
     ]
 }
