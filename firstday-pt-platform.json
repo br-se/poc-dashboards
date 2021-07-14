@@ -5,7 +5,7 @@
         ],
         "clusterVersion": "1.214.112.20210409-064503"
     },
-    "id": "tip-pt-platform",
+    "id": "firstday-pt-platform",
     "dashboardMetadata": {
         "name": "Software Intelligence Platform",
         "shared": false,

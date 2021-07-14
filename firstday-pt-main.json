@@ -48,7 +48,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Negócio Digital](https://dynatrace.com)  💰\n\nQuando temos o domínio dos usuários, fica claro o que devemos priorizar. O Dynatrace classifica automaticamente como Satisfeito, Tolerável ou Frustrado todas as sessões e ações de cada usuários. Além disso, nos permite entender as características únicas de cada um deles para que seja possível entregar experiências personalizadas para seus clientes.\n "
+            "markdown": "## [Negócio Digital](#dashboard;gtf=-2h;id=firstday-pt-rum;gf=all)  💰\n\nQuando temos o domínio dos usuários, fica claro o que devemos priorizar. O Dynatrace classifica automaticamente como Satisfeito, Tolerável ou Frustrado todas as sessões e ações de cada usuários. Além disso, nos permite entender as características únicas de cada um deles para que seja possível entregar experiências personalizadas para seus clientes.\n "
         },
         {
             "name": "Markdown",
@@ -61,7 +61,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Cultura SRE](https://dynatrace.com)  🎯\n\nDefina seus SLOs (Service-Level Objectives, objetivos de nível de serviço) de forma inteligente utilizando as métricas corretas (SLIs), combinadas com análises poderosas e detecção de causas raiz de problemas (DAVIS).\n"
+            "markdown": "## [Cultura SRE](#dashboard;gtf=-2h;id=firstday-pt-sre;gf=all)  🎯\n\nDefina seus SLOs (Service-Level Objectives, objetivos de nível de serviço) de forma inteligente utilizando as métricas corretas (SLIs), combinadas com análises poderosas e detecção de causas raiz de problemas (DAVIS).\n"
         },
         {
             "name": "Markdown",
@@ -74,7 +74,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Operação Inteligente](https://dynatrace.com)  🧮\n\nA operação, precisa de uma visão clara e ágil de onde os problemas estão ocorrendo e quais serviços estão sendo afetados alinhado com as estratégias de negócio\n\n"
+            "markdown": "## [Operação Inteligente](#dashboard;gtf=-2h;id=firstday-pt-platform;gf=all)  🧮\n\nA operação, precisa de uma visão clara e ágil de onde os problemas estão ocorrendo e quais serviços estão sendo afetados alinhado com as estratégias de negócio\n\n"
         },
         {
             "name": "Markdown",
@@ -87,7 +87,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Domine sua Infraestrutura](https://dynatrace.com)  🧱\n\nO time de infra também necessita ter uma visão ampla da saúde geral, porém com métricas específicas que fazem sentido no seu dia a dia.\n\n\n"
+            "markdown": "## [Domine sua Infraestrutura](#dashboard;gtf=-2h;id=firstday-pt-ecoinfra;gf=all)  🧱\n\nO time de infra também necessita ter uma visão ampla da saúde geral, porém com métricas específicas que fazem sentido no seu dia a dia.\n\n\n"
         },
         {
             "name": "Markdown",
@@ -113,7 +113,7 @@
                 "height": 190
             },
             "tileFilter": {},
-            "markdown": "## [Gates de qualidade](https://fov31014.live.dynatrace.com/ui/releases?gtf=-24h%20to%20now&gf=all&invsc=releaseName&invsd=asc)   🚦\n\nO time de dev ou qualidade podem validar suas releases garantindo a qualidade esperada e mitigando o risco quando forem para produção.\n"
+            "markdown": "## [Gates de qualidade](/ui/releases?gtf=-24h%20to%20now&gf=all&invsc=releaseName&invsd=asc)   🚦\n\nO time de dev ou qualidade podem validar suas releases garantindo a qualidade esperada e mitigando o risco quando forem para produção.\n"
         },
         {
             "name": "Markdown",
@@ -165,7 +165,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Experiência dos usuários](https://dynatrace.com)  😀\n\nO Dynatrace classifica automaticamente as ações ou páginas que devem ser priorizados para proteger sua marca.\n"
+            "markdown": "## [Experiência dos usuários](#usersearchoverview;gtf=-24h%20to%20now;gf=all;filtrfilterUXScore=1)  😀\n\nO Dynatrace classifica automaticamente as ações ou páginas que devem ser priorizados para proteger sua marca.\n"
         },
         {
             "name": "Markdown",
@@ -178,7 +178,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Serviços / Transações](https://fov31014.live.dynatrace.com/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topweb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111)  📈 \n\nClassifique as requests por quantidades x tempo e descubra como melhora-las.\n"
+            "markdown": "## [Serviços/Transações](/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topweb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111)  📈 \n\nClassifique as requests por quantidades x tempo e descubra como melhora-las.\n"
         },
         {
             "name": "Markdown",
@@ -204,7 +204,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Banco de dados](https://fov31014.live.dynatrace.com/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topdb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%110)  🧫\n\nAnalise as consultas e entenda como elas impactam seus clientes. Utilize a função backtrace.\n\n"
+            "markdown": "## [Banco de dados](/ui/diagnostictools/mda?gtf=-24h%20to%20now&gf=all&mdaId=topdb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%110)  🧫\n\nAnalise as consultas e entenda como elas impactam seus clientes. Utilize a função backtrace.\n\n"
         },
         {
             "name": "Markdown",
@@ -256,7 +256,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Análise de CPU](https://fov31014.live.dynatrace.com/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🔥  \n\nDiminua o consumo de recursos de infraestrutura."
+            "markdown": "## [Análise de CPU](/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🔥  \n\nDiminua o consumo de recursos de infraestrutura."
         },
         {
             "name": "Markdown",
@@ -295,7 +295,7 @@
                 "height": 190
             },
             "tileFilter": {},
-            "markdown": "## [Análise Exceptions](https://fov31014.live.dynatrace.com/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🧨 \n\nReduza a quantidade de exceptions de sua aplicação ou corrija um problema a partir dela."
+            "markdown": "## [Análise Exceptions](/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🧨 \n\nReduza a quantidade de exceptions de sua aplicação ou corrija um problema a partir dela."
         },
         {
             "name": "Markdown",
