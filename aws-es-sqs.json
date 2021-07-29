@@ -43,7 +43,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateAgeOfOldestMessage",
+                "customName": "Edad aproximada del mensaje más antiguo",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -81,7 +81,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesNotVisible Sum",
+                "customName": "Número aproximado de mensajes no visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -119,7 +119,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesNotVisible Sum",
+                "customName": "Número aproximado de mensajes no visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -157,7 +157,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesVisible Sum",
+                "customName": "Número aproximado de mensajes visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -195,7 +195,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesVisible Sum",
+                "customName": "Número aproximado de mensajes visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -233,7 +233,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateAgeOfOldestMessage",
+                "customName": "Edad aproximada del mensaje más antiguo",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -271,7 +271,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesVisible",
+                "customName": "Número aproximado de mensajes visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -309,7 +309,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ApproximateNumberOfMessagesVisible",
+                "customName": "Número aproximado de mensajes visibles",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -347,7 +347,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NumberOfMessagesReceived Sum",
+                "customName": "Número de mensajes recibidos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -385,7 +385,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NumberOfMessagesSent Sum",
+                "customName": "Número de mensajes enviados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -423,7 +423,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NumberOfMessagesReceived Sum",
+                "customName": "Número de mensajes recibidos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -461,7 +461,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NumberOfMessagesSent Sum",
+                "customName": "Número de mensajes enviados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -484,7 +484,7 @@
             }
         },
         {
-            "name": "Messages Performance",
+            "name": "Rendimiento de los mensajes",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -499,7 +499,7 @@
             }
         },
         {
-            "name": "Messages Visibles",
+            "name": "Mensajes visibles",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {

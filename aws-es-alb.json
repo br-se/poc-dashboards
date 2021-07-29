@@ -65,7 +65,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of consumed LCUs",
+                "customName": "número de LCU consumidas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -107,7 +107,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of processed bytes",
+                "customName": "Número de bytes procesados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -149,7 +149,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of requests",
+                "customName": "número de solicitudes",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -191,7 +191,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of requests",
+                "customName": "número de solicitudes",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -233,7 +233,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of processed bytes",
+                "customName": "Número de bytes procesados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -263,7 +263,7 @@
             }
         },
         {
-            "name": "ALB Volume",
+            "name": "Volumen",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -287,7 +287,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB target response time",
+                "customName": "tiempo de respuesta objetivo",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -329,7 +329,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB target response time",
+                "customName": "tiempo de respuesta objetivo",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -371,7 +371,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of active connections",
+                "customName": "número de conexiones activas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -413,7 +413,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of active connections",
+                "customName": "número de conexiones activas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -455,7 +455,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 4XX errors",
+                "customName": "numero de errores 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -497,7 +497,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 4XX errors",
+                "customName": "numero de errores 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -551,7 +551,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 4XX target errors",
+                "customName": "número de errores de destino 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -593,7 +593,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 4XX target errors",
+                "customName": "número de errores de destino 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -635,7 +635,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 5XX errors",
+                "customName": "número de errores 5XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -677,7 +677,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 5XX errors",
+                "customName": "número de errores 5XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -719,7 +719,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 5XX target errors",
+                "customName": "número de errores de destino 5XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -761,7 +761,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of 5XX target errors",
+                "customName": "número de errores de destino 5XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -803,7 +803,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of active connections",
+                "customName": "número de conexiones activas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -833,7 +833,7 @@
             }
         },
         {
-            "name": "Connections",
+            "name": "Conexiones",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -857,7 +857,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of new connections",
+                "customName": "número de nuevas conexiones",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -899,7 +899,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of rejected connections",
+                "customName": "número de conexiones rechazadas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -941,7 +941,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of consumed LCUs",
+                "customName": "número de LCU consumidas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,

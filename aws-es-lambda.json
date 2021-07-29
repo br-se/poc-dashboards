@@ -40,7 +40,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction code execution time.",
+                "customName": "tiempo de ejecución del código",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -82,7 +82,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction code execution time.",
+                "customName": "tiempo de ejecución del código",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "name": "Code Execution Time",
+            "name": "Tiempo de ejecución del código",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -142,7 +142,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction number of failed invocations with HTTP 4XX status code",
+                "customName": "número de invocaciones fallidas con código de estado HTTP 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -177,7 +177,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction number of failed invocations with HTTP 4XX status code",
+                "customName": "número de invocaciones fallidas con código de estado HTTP 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -207,7 +207,7 @@
             }
         },
         {
-            "name": "Lambda Failure HTTP 4xx",
+            "name": "HTTP 4xx",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -219,7 +219,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Number Function Invoked",
+            "name": "Invocación de funciones",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -243,7 +243,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction number of times a function is invoked (Sum)",
+                "customName": "número de veces que se invoca una función (Suma)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -278,7 +278,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction number of times a function is invoked (Sum)",
+                "customName": "número de veces que se invoca una función (Suma)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -320,7 +320,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction rate of failed invocations to all invocations %",
+                "customName": "Tasa de invocaciones fallidas a todas las invocaciones %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -343,7 +343,7 @@
             }
         },
         {
-            "name": "Number Failed Function Invoked",
+            "name": "Error en la invocación de la función",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -367,7 +367,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction rate of failed invocations to all invocations %",
+                "customName": "Tasa de invocaciones fallidas a todas las invocaciones %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -397,7 +397,7 @@
             }
         },
         {
-            "name": "Throttled Invocation",
+            "name": "Invocación limitada (throttled)",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -421,7 +421,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction throttled function invocation count",
+                "customName": "número de invocaciones de funciones limitadas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -456,7 +456,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction throttled function invocation count",
+                "customName": "número de invocaciones de funciones limitadas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,

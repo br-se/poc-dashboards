@@ -25,7 +25,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Integration Latency",
+                "customName": "Latencia de integración",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -78,7 +78,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of consumed LCUs",
+                "customName": "ALB número de LCU consumidas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -144,7 +144,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB read capacity units %",
+                "customName": "Unidades de capacidad de lectura de DynamoDB (%)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -186,7 +186,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB write capacity units %",
+                "customName": "Unidades de capacidad de escritura de DynamoDB (%)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -252,7 +252,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction number of failed invocations with HTTP 4XX status code",
+                "customName": "Número de invocaciones fallidas con código de estado HTTP 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -294,7 +294,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "LambdaFunction throttled function invocation count",
+                "customName": "Recuento de invocaciones de funciones limitadas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -336,7 +336,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS CPU usage %",
+                "customName": "RDS Uso de CPU (%)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -378,7 +378,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS freeable memory",
+                "customName": "RDS memoria liberable",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -420,7 +420,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read latency",
+                "customName": "RDS - latencia de lectura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -462,7 +462,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS freeable memory",
+                "customName": "RDS memoria liberable",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -504,7 +504,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS - Write Latency",
+                "customName": "EBS - Latencia de escritura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -546,7 +546,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS - Read Latency",
+                "customName": "EBS - latencia de lectura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -625,7 +625,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of client TLS negotiation errors",
+                "customName": "ALB número de errores de negociación TLS de cliente",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -667,7 +667,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of active connections",
+                "customName": "ALB número de conexiones activas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -709,7 +709,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "ALB number of rejected connections",
+                "customName": "ALB número de conexiones rechazadas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -751,7 +751,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Api Gateway - Error 4xx ",
+                "customName": "API Gateway - Error 4xx",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,

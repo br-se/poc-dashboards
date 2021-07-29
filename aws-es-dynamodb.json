@@ -28,7 +28,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Number of tables for AvailabilityZone",
+                "customName": "Número de tablas para AvailabilityZone",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "PIE",
@@ -73,7 +73,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB read capacity units %",
+                "customName": "Unidades de capacidad de lectura %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -111,7 +111,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB read capacity units %",
+                "customName": "Unidades de capacidad de lectura %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -149,7 +149,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB write capacity units %",
+                "customName": "Unidades de capacidad de escritura %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -187,7 +187,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB write capacity units %",
+                "customName": "Unidades de capacidad de lectura %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -225,7 +225,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB number of items returned by operation",
+                "customName": "Número de elementos devueltos por la operación",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -270,7 +270,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB number of items returned by operation",
+                "customName": "number of items returned by operation",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -315,7 +315,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB number of successful request latency for operation",
+                "customName": "Número de latencia de solicitud correcta para la operación",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -360,7 +360,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DynamoDB number of successful request latency for operation",
+                "customName": "Número de latencia de solicitud correcta para la operación",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
