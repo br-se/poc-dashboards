@@ -28,7 +28,7 @@
     },
     "tiles": [
         {
-            "name": "Volume Performance",
+            "name": "Desempenho do Volume",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -65,7 +65,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume idle time %",
+                "customName": "Tempo ocioso do volume EBS %",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -107,7 +107,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume queue length",
+                "customName": "Tamanho da fila do volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -149,7 +149,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume read latency",
+                "customName": "Latência do volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -191,7 +191,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume write latency",
+                "customName": "Latencia de escrita do volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -221,7 +221,7 @@
             }
         },
         {
-            "name": "Latency - Read/Write",
+            "name": "Latência - Escrita/Leitura",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -245,7 +245,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume consumed OPS",
+                "customName": "OPS consumido pelo volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -287,7 +287,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume consumed OPS",
+                "customName": "OPS consumido pelo volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -341,7 +341,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume read OPS",
+                "customName": "OPS de leitura do volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -383,7 +383,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "EBS volume write OPS",
+                "customName": "OPS de escrita do volume EBS",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -413,7 +413,7 @@
             }
         },
         {
-            "name": "OPS - Read/Write",
+            "name": "OPS - Escrita/Leitura",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
