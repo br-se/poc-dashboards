@@ -40,7 +40,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS connections",
+                "customName": "RDS conexões",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -63,7 +63,7 @@
             }
         },
         {
-            "name": "RDS Performance",
+            "name": "RDS Desempenho",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -87,7 +87,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS connections",
+                "customName": "RDS conexões",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -129,7 +129,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS free storage space %",
+                "customName": "RDS % espaço de armazenamento livre",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -164,7 +164,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS free storage space %",
+                "customName": "RDS % espaço de armazenamento livre",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -206,7 +206,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS CPU usage %",
+                "customName": "RDS % de CPU utilizado",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -241,7 +241,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS CPU usage %",
+                "customName": "RDS % de CPU utilizado",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -271,7 +271,7 @@
             }
         },
         {
-            "name": "RDS Latency",
+            "name": "Latência RDS",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -295,7 +295,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read latency",
+                "customName": "RDS latência de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -330,7 +330,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read latency",
+                "customName": "RDS latência de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -372,7 +372,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write latency",
+                "customName": "RDS latência de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -407,7 +407,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write latency",
+                "customName": "RDS latência de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -461,7 +461,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read IOPS",
+                "customName": "RDS IOPS de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -496,7 +496,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read IOPS",
+                "customName": "RDS IOPS de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -538,7 +538,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write IOPS",
+                "customName": "RDS IOPS de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -580,7 +580,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write IOPS",
+                "customName": "RDS IOPS de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -615,7 +615,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS freeable memory",
+                "customName": "RDS memória liberável",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -650,7 +650,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS freeable memory",
+                "customName": "RDS memória liberável",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -692,7 +692,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read throughput",
+                "customName": "RDS taxa de transferência de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -715,7 +715,7 @@
             }
         },
         {
-            "name": "RDS Read and Write Throughput",
+            "name": "RDS taxa de transferência de Leitura e Escrita",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -739,7 +739,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS read throughput",
+                "customName": "RDS taxa de transferência de leitura",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -781,7 +781,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write throughput",
+                "customName": "RDS taxa de transferência de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -816,7 +816,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS write throughput",
+                "customName": "RDS taxa de transferência de escrita",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -846,7 +846,7 @@
             }
         },
         {
-            "name": "RDS Sent and Transmitted Throughput",
+            "name": "RDS Taxa de transferência de enviado e transmitido",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -870,7 +870,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS network received throughput",
+                "customName": "RDS taxa de transferência recebida da rede",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -905,7 +905,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS network received throughput",
+                "customName": "RDS taxa de transferência recebida da rede",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -947,7 +947,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS network transmitted throughput",
+                "customName": "RDS taxa de transferência transmitida pela rede",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -982,7 +982,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "RDS network transmitted throughput",
+                "customName": "RDS taxa de transferência transmitida pela rede",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
