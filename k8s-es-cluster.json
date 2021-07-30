@@ -7,13 +7,13 @@
     },
     "id": "k8s-es-cluster",
     "dashboardMetadata": {
-        "name": "Kubernetes: Cluster MEM/CPU",
+        "name": "Kubernetes: Clúster MEM/CPU",
         "shared": false,
         "owner": "POC"
     },
     "tiles": [
         {
-            "name": "Menu",
+            "name": "Menú",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -25,7 +25,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Nodes per Cluster",
+            "name": "Nodos por clúster",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -49,7 +49,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Nodes",
+                "customName": "Nodos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -91,7 +91,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Nodes",
+                "customName": "Nodos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -121,7 +121,7 @@
             }
         },
         {
-            "name": "Memory",
+            "name": "Memoria",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -145,7 +145,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory",
+                "customName": "Memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -187,7 +187,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory available",
+                "customName": "Memoria disponible",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -229,7 +229,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit statistics",
+                "customName": "Estadísticas de límite de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -271,7 +271,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested statistics",
+                "customName": "Estadísticas solicitadas de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -313,7 +313,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Cores",
+                "customName": "Núcleos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -355,7 +355,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Cores",
+                "customName": "Núcleos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -397,7 +397,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory",
+                "customName": "Memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -439,7 +439,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory available",
+                "customName": "Memoria disponible",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -481,7 +481,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Límite de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -523,7 +523,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Límite de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -565,7 +565,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memoria solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -607,7 +607,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memoria solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -647,10 +647,10 @@
                 "height": 532
             },
             "tileFilter": {},
-            "markdown": "## Memory/CPU\nActual Memory/CPU usage of cluster nodes\n## Memory/CPU Available\nAvailable Memory/CPU resources for running additional pods/workloads\n## Memory/CPU Limit\nTotal of Memory/CPU limits of containers running on cluster nodes\n## Memory/CPU Requested\nTotal of Memory/CPU requests of containers running on cluster nodes"
+            "markdown": "## Memoria/CPU\nUso real de memoria/CPU de los nodos del clúster\n## Memoria/CPU disponible\nMemoria disponible/recursos de CPU para ejecutar pods/cargas de trabajo adicionales\n## Límite de memoria/CPU\nTotal de límites de memoria/CPU de contenedores que se ejecutan en los nodos del clúster\n## Memoria/CPU solicitada\nTotal de solicitudes de memoria/CPU de los contenedores que se ejecutan en los nodos del clúster"
         },
         {
-            "name": "Glossary",
+            "name": "Glosario",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -662,7 +662,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Memory Statistics",
+            "name": "Estadísticas de memoria",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -686,7 +686,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit statistics",
+                "customName": "Estadísticas de límite de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -728,7 +728,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested statistics",
+                "customName": "Estadísticas solicitadas de memoria",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -770,7 +770,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available statistics",
+                "customName": "Estadísticas disponibles de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -812,7 +812,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit statistics",
+                "customName": "Estadísticas de límite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -866,7 +866,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available statistics",
+                "customName": "Estadísticas disponibles de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -908,7 +908,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit statistics",
+                "customName": "Estadísticas de límite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -962,7 +962,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available",
+                "customName": "CPU disponible",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1004,7 +1004,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available",
+                "customName": "CPU disponible",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1046,7 +1046,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "límite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1088,7 +1088,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "límite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1130,7 +1130,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1172,7 +1172,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -1212,7 +1212,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🏡 [K8s Overview](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
+            "markdown": "## 🏡 [Descrip. general](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
         },
         {
             "name": "Markdown",
@@ -1225,7 +1225,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🛠 [Cluster MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-cluster;gf=all)"
+            "markdown": "## 🛠 [Clúster MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-cluster;gf=all)"
         },
         {
             "name": "Markdown",
@@ -1238,7 +1238,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🖥 [Node MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
+            "markdown": "## 🖥 [Nodo MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
         }
     ]
 }
