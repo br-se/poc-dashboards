@@ -272,7 +272,7 @@
                     "series": [
                         {
                             "metric": "builtin:service.dbconnections.successRate",
-                            "aggregation": "AVG",
+                            "aggregation": "NONE",
                             "type": "LINE",
                             "entityType": "SERVICE",
                             "dimensions": [],
