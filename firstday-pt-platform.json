@@ -689,7 +689,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Kubernetes Dashboard](https://yoj211.managed-sprint.dynalabs.io/e/ecc29184-1ae2-46dd-96fe-06997671fc57/ui/kubernetes/KUBERNETES_CLUSTER-DBA196ECFBBBCFD2)\n"
+            "markdown": "##[Dashboard de Kubernetes](/ui/kubernetes?gtf=-2h&gf=all)\n"
         },
         {
             "name": "Markdown",
@@ -702,7 +702,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Azure Dashboard](https://yoj211.managed-sprint.dynalabs.io/e/ecc29184-1ae2-46dd-96fe-06997671fc57/#azure;id=AZURE_SUBSCRIPTION-2BED0374A04ADF85/azureRegions;gf=all;gtf=l_2_HOURS)\n"
+            "markdown": "##[Dashboard de Azure](/#azures;gtf=-2h;gf=all)\n"
         }
     ]
 }
