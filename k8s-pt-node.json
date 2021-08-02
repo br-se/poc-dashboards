@@ -7,7 +7,7 @@
     },
     "id": "k8s-pt-node",
     "dashboardMetadata": {
-        "name": "Kubernetes: Node MEM/CPU",
+        "name": "Kubernetes: Nós MEM/CPU",
         "shared": false,
         "owner": "POC"
     },
@@ -25,7 +25,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Glossary",
+            "name": "Glossário",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -47,7 +47,7 @@
                 "height": 570
             },
             "tileFilter": {},
-            "markdown": "## Memory/CPU\nActual Memory/CPU usage of cluster nodes\n## Memory/CPU Available\nAvailable Memory/CPU resources for running additional pods/workloads\n## Memory/CPU Limit\nTotal of Memory/CPU limits of containers running on cluster nodes\n## Memory/CPU Requested\nTotal of Memory/CPU requests of containers running on cluster nodes"
+            "markdown": "Memória/CPU\nMemória real/uso de CPU de nós de cluster\n## Memória/CPU disponível\nMemória disponível/recursos de CPU para executar pods/cargas de trabalho adicionais\n## Memória/Limite de CPU\nTotal de memória/limites de CPU de contêineres em execução em nós de cluster\n## Solicitação de memória/CPU\nTotal de solicitações de memória/CPU de contêineres em execução em nós de cluster"
         },
         {
             "name": "Custom chart",
@@ -62,7 +62,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available",
+                "customName": "CPU disponível",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -104,7 +104,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU available",
+                "customName": "CPU disponível",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -146,7 +146,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -188,7 +188,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -230,7 +230,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -272,7 +272,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -398,7 +398,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Memory",
+            "name": "Memória",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -422,7 +422,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory",
+                "customName": "Memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -464,7 +464,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory",
+                "customName": "Memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -506,7 +506,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory available",
+                "customName": "Memória disponível",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -548,7 +548,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory available",
+                "customName": "Memória disponível",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -590,7 +590,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -632,7 +632,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -674,7 +674,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -716,7 +716,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -756,7 +756,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🏡 [K8s Overview](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
+            "markdown": "## 🏡 [K8s Visão Geral](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
         },
         {
             "name": "Markdown",
@@ -782,7 +782,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🖥 [Node MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
+            "markdown": "## 🖥 [Nós MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
         }
     ]
 }
