@@ -5,7 +5,7 @@
         ],
         "clusterVersion": "1.221.95.20210709-141656"
     },
-    "id": "firstday-pt-main",
+    "id": "firstday-es-main",
     "dashboardMetadata": {
         "name": "POC Dynatrace - Primeros pasos",
         "shared": false,
@@ -48,7 +48,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Negocios Digitales](#dashboard;gtf=-2h;id=firstday-pt-rum;gf=all)  💰\n\nCuando tenemos el dominio de los usuarios, está claro lo que debemos priorizar. Dynatrace califica automáticamente todas las sesiones y acciones de cada usuario como Satisfechas, Tolerables o Frustradas. Además, nos permite entender las características únicas de cada uno de ellos para que puedas ofrecer experiencias personalizadas a tus clientes.\n "
+            "markdown": "## [Negocios Digitales](#dashboard;gtf=-2h;id=firstday-es-rum;gf=all)  💰\n\nCuando tenemos el dominio de los usuarios, está claro lo que debemos priorizar. Dynatrace califica automáticamente todas las sesiones y acciones de cada usuario como Satisfechas, Tolerables o Frustradas. Además, nos permite entender las características únicas de cada uno de ellos para que puedas ofrecer experiencias personalizadas a tus clientes.\n "
         },
         {
             "name": "Markdown",
@@ -61,7 +61,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Cultura SRE](#dashboard;gtf=-2h;id=firstday-pt-sre;gf=all)  🎯\n\nDefina de forma inteligente sus objetivos de nivel de servicio (SLOs) utilizando las métricas correctas (SLIs), combinadas con un potente análisis y detección de problemas raíz (DAVIS).\n"
+            "markdown": "## [Cultura SRE](#dashboard;gtf=-2h;id=firstday-es-sre;gf=all)  🎯\n\nDefina de forma inteligente sus objetivos de nivel de servicio (SLOs) utilizando las métricas correctas (SLIs), combinadas con un potente análisis y detección de problemas raíz (DAVIS).\n"
         },
         {
             "name": "Markdown",
@@ -74,7 +74,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Operación inteligente](#dashboard;gtf=-2h;id=firstday-pt-platform;gf=all)  🧮\n\nLa operación necesita una visión clara y ágil de dónde están ocurriendo los problemas y qué servicios se están viendo afectados alineados con las estrategias de negocio\n\n"
+            "markdown": "## [Operación inteligente](#dashboard;gtf=-2h;id=firstday-es-platform;gf=all)  🧮\n\nLa operación necesita una visión clara y ágil de dónde están ocurriendo los problemas y qué servicios se están viendo afectados alineados con las estrategias de negocio\n\n"
         },
         {
             "name": "Markdown",
@@ -87,7 +87,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Domine su infraestructura](#dashboard;gtf=-2h;id=firstday-pt-ecoinfra;gf=all)  🧱\n\nEl equipo de infra también necesita tener una visión amplia de la salud general, pero con métricas específicas que tengan sentido en su vida cotidiana.\n\n\n"
+            "markdown": "## [Domine su infraestructura](#dashboard;gtf=-2h;id=firstday-es-ecoinfra;gf=all)  🧱\n\nEl equipo de infra también necesita tener una visión amplia de la salud general, pero con métricas específicas que tengan sentido en su vida cotidiana.\n\n\n"
         },
         {
             "name": "Markdown",
