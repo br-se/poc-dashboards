@@ -81,7 +81,7 @@
             ]
         },
         {
-            "name": "Application performance",
+            "name": "Desempenho da aplicação",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -93,7 +93,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Service availability",
+            "name": "Disponibilidade de serviço",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -105,7 +105,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Service performance",
+            "name": "Desempenho de serviço",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
