@@ -7,7 +7,7 @@
     },
     "id": "firstday-pt-platform",
     "dashboardMetadata": {
-        "name": "Software Intelligence Platform",
+        "name": "Plataforma de Inteligência de Software",
         "shared": false,
         "owner": "POC",
         "dashboardFilter": {
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "name": "Synthetics and IoT",
+            "name": "Sintético e IOT",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -167,7 +167,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Slowest Services",
+                "customName": "Serviços com lentidão",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -197,7 +197,7 @@
             }
         },
         {
-            "name": "Browser monitor",
+            "name": "Monitor de Browser",
             "tileType": "SYNTHETIC_SINGLE_WEBCHECK",
             "configured": true,
             "bounds": {
@@ -223,7 +223,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Application Health](#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-08EBD5603755FA87)\n"
+            "markdown": "##[Saúde da aplicação](#uemapplications/uemappmetrics;uemapplicationId=APPLICATION-08EBD5603755FA87)\n"
         },
         {
             "name": "Markdown",
@@ -236,7 +236,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Database Health](#topdbstatements)\n"
+            "markdown": "##[Saúde Banco de dados](#topdbstatements)\n"
         },
         {
             "name": "Markdown",
@@ -249,7 +249,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Database Backtrace](#servicebacktrace;sci=SERVICE-FDEC33AFE288CE86)\n"
+            "markdown": "##[Backtrace do banco de dados](#servicebacktrace;sci=SERVICE-FDEC33AFE288CE86)\n"
         },
         {
             "name": "Custom chart",
@@ -264,7 +264,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "DB connection success rate",
+                "customName": "Taxa de sucesso para conexões no DB",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -287,7 +287,7 @@
             }
         },
         {
-            "name": "Dependency Mapping",
+            "name": "Mapeamento de Dependências",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -309,10 +309,10 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "##[Real User Experience](#usersearchoverview;gtf=l_2_HOURS;gf=all;sessionquery=SELECT%20userId,%20AVG(userActionCount),%20userType,%20AVG(duration),%20COUNT(*),%20SUM(totalErrorCount)%20FROM%20usersession%20WHERE%20useraction.application%5C2'www.easytravel.com'%20AND%20userExperienceScore%5C2'FRUSTRATED'%20GROUP%20BY%20userType,%20userId%20ORDER%20BY%20COUNT(*)%20DESC;visualization=COLUMN_CHART;visiblepart=Application;filtrfilterUXScore=1)\n"
+            "markdown": "##[Experiência de Usuário Real](#usersearchoverview;gtf=l_2_HOURS;gf=all;sessionquery=SELECT%20userId,%20AVG(userActionCount),%20userType,%20AVG(duration),%20COUNT(*),%20SUM(totalErrorCount)%20FROM%20usersession%20WHERE%20useraction.application%5C2'www.easytravel.com'%20AND%20userExperienceScore%5C2'FRUSTRATED'%20GROUP%20BY%20userType,%20userId%20ORDER%20BY%20COUNT(*)%20DESC;visualization=COLUMN_CHART;visiblepart=Application;filtrfilterUXScore=1)\n"
         },
         {
-            "name": "Top web applications",
+            "name": "Principais app Web",
             "tileType": "APPLICATIONS_MOST_ACTIVE",
             "configured": true,
             "bounds": {
@@ -334,7 +334,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Diagnostic Tools](#diagnostictools)\n## [Service Health](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Failures](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Web Requests](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
+            "markdown": "## [Ferramentas de diagnóstico](#diagnostictools)\n## [Saúde do Serviço](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Falhass](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Requisiçoes Webs](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
         },
         {
             "name": "Markdown",
@@ -347,10 +347,10 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## [Service Health](#serviceflow;sci=SERVICE-FE87731BAA390EFB)"
+            "markdown": "## [Saúde do Serviço](#serviceflow;sci=SERVICE-FE87731BAA390EFB)"
         },
         {
-            "name": "Service health",
+            "name": "Saúde do serviço",
             "tileType": "SERVICES",
             "configured": true,
             "bounds": {
@@ -390,7 +390,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Failing Services",
+                "customName": "Serviços com falha",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -432,7 +432,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Network Health",
+            "name": "Saúde da Rede",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -562,7 +562,7 @@
             "chartVisible": true
         },
         {
-            "name": "Network status",
+            "name": "Status da Rede",
             "tileType": "NETWORK_MEDIUM",
             "configured": true,
             "bounds": {
@@ -586,7 +586,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "WEB_CHECK",
-                "customName": "Active Tests",
+                "customName": "Testes ativos",
                 "defaultName": "Active synthetic monitor",
                 "chartConfig": {
                     "legendShown": true,
@@ -617,7 +617,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "APPLICATION",
-                "customName": "IoT Applications",
+                "customName": "Aplicações IoT",
                 "defaultName": "AMP  applications",
                 "chartConfig": {
                     "legendShown": true,
@@ -636,7 +636,7 @@
             "chartVisible": true
         },
         {
-            "name": "Mobile Applications",
+            "name": "Aplicações Mobile",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -661,7 +661,7 @@
             "filterConfig": {
                 "type": "APPLICATION",
                 "customName": "",
-                "defaultName": "Mobile apps ",
+                "defaultName": "App Mobiles ",
                 "chartConfig": {
                     "legendShown": true,
                     "type": "TIMESERIES",
