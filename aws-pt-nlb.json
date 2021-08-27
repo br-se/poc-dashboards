@@ -43,7 +43,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of consumed LCUs",
+                "customName": "NLB número de LCUs consumidas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -81,7 +81,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of consumed LCUs",
+                "customName": "NLB número de LCUs consumidas",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -119,7 +119,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of processed bytes",
+                "customName": "NLB número de bytes processados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "SINGLE_VALUE",
@@ -157,7 +157,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of processed bytes",
+                "customName": "NLB número de bytes processados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -180,7 +180,7 @@
             }
         },
         {
-            "name": "Processed and Consumed",
+            "name": "Processado e Consumido",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -210,7 +210,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of active flows",
+                "customName": "NLB número de fluxos ativos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -248,7 +248,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of active flows",
+                "customName": "NLB número de fluxos ativos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -271,7 +271,7 @@
             }
         },
         {
-            "name": "Flows",
+            "name": "Fluxos",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -301,7 +301,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of new flows",
+                "customName": "NLB número de fluxos novos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -339,7 +339,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of new flows",
+                "customName": "NLB número de fluxos novos",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -377,7 +377,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of client resets",
+                "customName": "NLB número de clients resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "PIE",
@@ -415,7 +415,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of client resets",
+                "customName": "NLB número de clients resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -468,7 +468,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of resets",
+                "customName": "NLB número de resets",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "PIE",
@@ -506,7 +506,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of target resets",
+                "customName": "NLB número de targets resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "PIE",
@@ -544,7 +544,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of target resets",
+                "customName": "NLB número de targets resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -582,7 +582,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of client resets",
+                "customName": "NLB número de clients resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -620,7 +620,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of target resets",
+                "customName": "NLB número de targets resetados",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",
@@ -658,7 +658,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of resets",
+                "customName": "NLB número de resets",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TIMESERIES",
@@ -696,7 +696,7 @@
             },
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "NLB number of resets",
+                "customName": "NLB número de resets",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "type": "TOP_LIST",

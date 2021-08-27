@@ -25,7 +25,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "AllRequests Sum (by FilterId)",
+                "customName": "Todas Requisições Sum (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": false,
@@ -73,7 +73,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "4xxErrors (by FilterId)",
+                "customName": "Erros 4xx (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": false,
@@ -119,7 +119,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "5xxErrors (by FilterId)",
+                "customName": "Erros 5xx (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": false,
@@ -165,7 +165,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "AllRequests Sum (by FilterId)",
+                "customName": "Todas Requisições Sum (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -213,7 +213,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "4xxErrors (by FilterId)",
+                "customName": "Erros 4xx (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -259,7 +259,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "5xxErrors (by FilterId)",
+                "customName": "Erros 5xx (por FilterId)",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,

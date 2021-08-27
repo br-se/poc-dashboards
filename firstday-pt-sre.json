@@ -81,7 +81,7 @@
             ]
         },
         {
-            "name": "Desempenho da aplicação",
+            "name": "Performance de Aplicação",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -93,7 +93,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Disponibilidade de serviço",
+            "name": "Disponibilidade dos Serviços",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -105,7 +105,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Desempenho de serviço",
+            "name": "Performance dos Serviços",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -285,7 +285,7 @@
             ]
         },
         {
-            "name": "World map",
+            "name": "Mapa mundial",
             "tileType": "APPLICATION_WORLDMAP",
             "configured": true,
             "bounds": {
@@ -304,7 +304,7 @@
             "metric": "APDEX"
         },
         {
-            "name": "Service health",
+            "name": "Saúde do Serviço",
             "tileType": "SERVICES",
             "configured": true,
             "bounds": {

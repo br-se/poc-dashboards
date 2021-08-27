@@ -40,7 +40,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Count Sum",
+                "customName": "Soma da contagem",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -75,7 +75,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "IntegrationLatency",
+                "customName": "latência de integração",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -110,7 +110,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Latency",
+                "customName": "Latência",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -145,7 +145,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "IntegrationLatency",
+                "customName": "latência de integração",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -187,7 +187,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Count Sum",
+                "customName": "Soma da contagem",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -229,7 +229,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Latency",
+                "customName": "Latência",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -259,7 +259,7 @@
             }
         },
         {
-            "name": "Integration Latency ",
+            "name": "Latência de Integração",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -284,7 +284,7 @@
             "markdown": "##↩ [Voltar](https://jce37063.live.dynatrace.com/#dashboard;gtf=l_2_HOURS;gf=all;id=6c164588-6574-4322-adec-74affab51c9e)\n"
         },
         {
-            "name": "Request Count per API",
+            "name": "Contagem das requisições por API",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -308,7 +308,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Count Sum",
+                "customName": "Soma da contagem",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -350,7 +350,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "IntegrationLatency",
+                "customName": "latência de integração",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -380,7 +380,7 @@
             }
         },
         {
-            "name": "Latency ",
+            "name": "Latência ",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -404,7 +404,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Latency",
+                "customName": "Latência",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -446,7 +446,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "4XXError Sum",
+                "customName": "Soma dos Erros 4XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -487,7 +487,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "5XXError Sum",
+                "customName": "Soma dos erros 5XX",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -528,7 +528,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CacheMissCount Sum",
+                "customName": "Soma de contagem de perda de cache",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -558,7 +558,7 @@
             }
         },
         {
-            "name": "Error 4xx",
+            "name": "Erros 4xx",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -570,7 +570,7 @@
             "tileFilter": {}
         },
         {
-            "name": "CacheMiss Count",
+            "name": "Contagem de perda de cache",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -582,7 +582,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Error 5xx",
+            "name": "Erros 5xx",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {

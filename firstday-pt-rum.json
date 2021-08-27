@@ -7,7 +7,7 @@
     },
     "id": "firstday-pt-rum",
     "dashboardMetadata": {
-        "name": "Real User Monitoring",
+        "name": "Monitoramento de usuário real (RUM)",
         "shared": false,
         "owner": "POC",
         "dashboardFilter": {
@@ -28,7 +28,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Web applications",
+                "customName": "Aplicações Web",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "Application health",
+            "name": "Saúde da aplicação",
             "tileType": "APPLICATIONS",
             "configured": true,
             "bounds": {
@@ -92,7 +92,7 @@
             "chartVisible": true
         },
         {
-            "name": "World map",
+            "name": "Mapa Mundial",
             "tileType": "APPLICATION_WORLDMAP",
             "configured": true,
             "bounds": {
@@ -122,7 +122,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Mobile applications",
+                "customName": "Aplicações Mobile",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -209,7 +209,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Top mobile geo locations",
+                "customName": "Principais geolocalizações para celular",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -271,7 +271,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Mobile app crashes",
+                "customName": "Falhas em app Mobile",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -311,7 +311,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "User actions per minute",
+                "customName": "Ações do Usuários por minuto",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -369,7 +369,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Web application errors",
+                "customName": "Erros de aplicações web",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -412,7 +412,7 @@
             }
         },
         {
-            "name": "User experience",
+            "name": "Experiencia do Usuário",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -424,7 +424,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Geo locations",
+            "name": "Geolocalizaçoes",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -436,7 +436,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Application health",
+            "name": "Saúde da aplicação",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -448,7 +448,7 @@
             "tileFilter": {}
         },
         {
-            "name": "User actions",
+            "name": "Ações do Usuários",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -460,7 +460,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Application errors and crashes",
+            "name": "Erros e falhas de aplicativos",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -484,7 +484,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Key performance metrics",
+                "customName": "Metricas chave de desempenho",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -560,7 +560,7 @@
                 "height": 342
             },
             "tileFilter": {},
-            "customName": "User sessions query results",
+            "customName": "Resultado da consulta de sessões do usuário",
             "query": "SELECT FUNNEL(useraction.isEntryAction = true AS \"First step\", useraction.duration>1000 AS \"Second step\", useraction.isExitAction=true AS \"Last step\") FROM usersession",
             "type": "FUNNEL",
             "limit": 50
@@ -578,7 +578,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Visually complete",
+                "customName": "Visualmente completo",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -626,7 +626,7 @@
             }
         },
         {
-            "name": "Web requests and 3rd party providers",
+            "name": "Solicitações da web e provedores terceirizados",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -650,7 +650,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Mobile request error rate",
+                "customName": "Taxa de erro para requisições Mobile",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -735,7 +735,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Performance metrics across different dimensions",
+            "name": "Métricas de desempenho em diferentes dimensões",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -747,7 +747,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Most used 3rd parties",
+            "name": "3rd parties mais usados",
             "tileType": "THIRD_PARTY_MOST_ACTIVE",
             "configured": true,
             "bounds": {
@@ -772,7 +772,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Mobile action duration",
+                "customName": "Duração action mobile",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -827,7 +827,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Mobile app versions",
+                "customName": "Versões dos app mobile",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -880,14 +880,14 @@
                 "height": 304
             },
             "tileFilter": {},
-            "customName": "Total sessions",
+            "customName": "Total de sessões",
             "query": "SELECT count(userSessionId) FROM usersession ",
             "type": "SINGLE_VALUE",
             "timeFrameShift": "dynamic",
             "limit": 50
         },
         {
-            "name": "Synthetic monitor health",
+            "name": "Saúde Monitor Sintético",
             "tileType": "SYNTHETIC_TESTS",
             "configured": true,
             "bounds": {

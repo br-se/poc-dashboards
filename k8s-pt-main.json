@@ -50,7 +50,7 @@
             "markdown": "## ⚙ [Kubernetes](https://www.dynatrace.com/support/help/shortlink/kubernetes-hub)"
         },
         {
-            "name": "Kubernetes Nodes",
+            "name": "Kubernetes Nós",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -74,7 +74,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Nodes per Cluster",
+                "customName": "Nós por Cluster",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -116,7 +116,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Nodes per Cluster",
+                "customName": "Nós por Cluster",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -146,7 +146,7 @@
             }
         },
         {
-            "name": "Kubernetes Cluster Health",
+            "name": "Kubernetes Saúde do Cluster",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -158,7 +158,7 @@
             "tileFilter": {}
         },
         {
-            "name": "Kubernetes Node Health",
+            "name": "Kubernetes saúde dos nós",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -182,7 +182,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -224,7 +224,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -266,7 +266,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -308,7 +308,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -350,7 +350,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -392,7 +392,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU limit",
+                "customName": "Limite de CPU",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -434,7 +434,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -476,7 +476,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -518,7 +518,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -560,7 +560,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "CPU requested",
+                "customName": "CPU solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -602,7 +602,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -644,7 +644,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -686,7 +686,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -728,7 +728,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory limit",
+                "customName": "Limite de memória",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -770,7 +770,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -812,7 +812,7 @@
             "tileFilter": {},
             "filterConfig": {
                 "type": "MIXED",
-                "customName": "Memory requested",
+                "customName": "Memória solicitada",
                 "defaultName": "Custom chart",
                 "chartConfig": {
                     "legendShown": true,
@@ -842,7 +842,7 @@
             }
         },
         {
-            "name": "Glossary",
+            "name": "Glossário",
             "tileType": "HEADER",
             "configured": true,
             "bounds": {
@@ -864,7 +864,7 @@
                 "height": 380
             },
             "tileFilter": {},
-            "markdown": "## Request\nA request is the amount of that resources that the system will guarantee for the container, and Kubernetes will use this value to decide on which node to place the pod. \n##Limit\nA limit is the maximum amount of resources that Kubernetes will allow the container to use.\n"
+            "markdown": "## Solicitação\nUma solicitação é a quantidade desses recursos que o sistema garantirá para o contêiner, e o Kubernetes usará esse valor para decidir em qual nó colocar o pod.\n##Limite\nUm limite é a quantidade máxima de recursos que o Kubernetes permitirá que o contêiner use..\n"
         },
         {
             "name": "Dynatrace Blog",
@@ -902,7 +902,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🏡 [K8s Overview](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
+            "markdown": "## 🏡 [K8s Visão Geral](#dashboard;gtf=-2h;id=k8s-pt-main;gf=all)"
         },
         {
             "name": "Markdown",
@@ -928,7 +928,7 @@
                 "height": 38
             },
             "tileFilter": {},
-            "markdown": "## 🖥 [Node MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
+            "markdown": "## 🖥 [Nós MEM/CPU](#dashboard;gtf=-2h;id=k8s-pt-node;gf=all)"
         }
     ]
 }
