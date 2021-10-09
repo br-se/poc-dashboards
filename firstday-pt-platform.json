@@ -334,7 +334,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Ferramentas de diagnóstico](#diagnostictools)\n## [Saúde do Serviço](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Falhass](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Requisiçoes Webs](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
+            "markdown": "## [Ferramentas de diagnóstico](/ui/profiling-optimization)\n## [Saúde do Serviço](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Falhass](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Requisiçoes Webs](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
         },
         {
             "name": "Markdown",

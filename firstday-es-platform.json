@@ -334,7 +334,7 @@
                 "height": 152
             },
             "tileFilter": {},
-            "markdown": "## [Diagnostic Tools](#diagnostictools)\n## [Service Health](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Failures](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Web Requests](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
+            "markdown": "## [Diagnostic Tools](/ui/profiling-optimization)\n## [Service Health](#serviceOverview;id=SERVICE-FE87731BAA390EFB)\n##[PurePaths](#servicecalls;sci=SERVICE-FE87731BAA390EFB)\n##[Failures](#smgd;sci=SERVICE-FE87731BAA390EFB;gf=all;gtf=l_7_DAYS;tab=FR)\n##[Web Requests](#topglobalwebrequests;sci=SERVICE-FE87731BAA390EFB)\n"
         },
         {
             "name": "Markdown",

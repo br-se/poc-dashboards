@@ -295,7 +295,7 @@
                 "height": 190
             },
             "tileFilter": {},
-            "markdown": "## [Análisis de Excepciones](/ui/diagnostictools/profiling/cpu?gtf=-24h%20to%20now&gf=all)  🧨 \n\nReducir la cantidad de excepciones en la aplicación o solucionar un problema de ella."
+            "markdown": "## [Análisis de Excepciones](/ui/diagnostictools?gtf=-24h%20to%20now&gf=all&mdaId=exceptions&metric=EXCEPTION_COUNT&dimension=%7BException:Class%7D&mergeServices=true&aggregation=SUM&percentile=80&chart=COLUMN&servicefilter=0%1E29%110)  🧨 \n\nReducir la cantidad de excepciones en la aplicación o solucionar un problema de ella."
         },
         {
             "name": "Markdown",
