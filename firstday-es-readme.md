@@ -27,6 +27,7 @@ _____________________
 _____________________
 #### Dashboard -> SRE – SLOs/SLIs
 ![ES-SRE](https://user-images.githubusercontent.com/54456808/135286552-8508d298-b7aa-41b6-855f-fd749d95b912.PNG)
+
 ⚠️ Necesidad de crear métricas de SLO.
 
 ## 🔎Análisis Proactivo
