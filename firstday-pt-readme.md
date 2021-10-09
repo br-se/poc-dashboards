@@ -3,9 +3,6 @@
 ### Primeiros passos da POC
 Dashboards que trazem visibilidade para aqueles que estão iniciando um processo de POC conosco. Essa coleção possui Dashs e links para algumas das principais visões disponíveis no Dynatrace.
 
-## Como importar utilizando o BizOps Configurator
-⚠️ WIP
-
 ## 📊 Dashboards
 ### POC Dynatrace - Primeiros passos
 _____________________

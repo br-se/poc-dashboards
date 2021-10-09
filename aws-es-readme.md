@@ -3,9 +3,6 @@
 ### AWS
 Grupo de dashboards para monitorear importantes servicios de AWS
 
-## Importar usando BizOps Configurator
-⚠️ WIP
-
 ## 📊 Dashboard de control
 ### Funcionamiento de AWS
 _____________________

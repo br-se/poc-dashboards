@@ -3,9 +3,6 @@
 ### AWS 
 Grupo de dashboards para acompanhamento dos principais serviços AWS
 
-## Como importar utilizando o BizOps Configurator
-⚠️ WIP
-
 ## 📊 Dashboards
 ### AWS Performance
 _____________________

@@ -1,8 +1,7 @@
 # Dashboards Dynatrace - Primeros pasos
 ### Primeros pasos del POC
 Dashboards que ofrecen visibilidad a quienes inician un proceso de POC con nosotros. Esta colección tiene Dashs y enlaces a algunas de las vistas principales disponibles en Dynatrace.
-## Como importar usando BizOps Configurator
-⚠️ WIP
+
 ## 📊 Paneles de control
 ### POC Dynatrace - Primeros pasos
 Acceso rápido a dashboards y vistas que facilitan el análisis proactivo.
