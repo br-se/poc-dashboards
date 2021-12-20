@@ -4,4 +4,4 @@
 _____________________
 El panel proporciona un resumen de la supervisión de la seguridad.
 
-![appsec-pt-1](images/appsec-es-1.png)
+![appsec-pt-1](https://raw.githubusercontent.com/br-se/poc-dashboards/main/images/appsec-es-1.png)
