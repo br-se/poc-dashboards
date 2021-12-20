@@ -1,0 +1,613 @@
+{
+    "metadata": {
+        "configurationVersions": [
+            5
+        ]
+    },
+    "id": "appsec-es-main",
+    "dashboardMetadata": {
+        "name": "Seguridad de las aplicaciones",
+        "shared": true,
+        "sharingDetails": {
+            "linkShared": true,
+            "published": true
+        },
+        "owner": "POC",
+        "dashboardFilter": {
+            "timeframe": "-7d to now"
+        }
+    },
+    "tiles": [
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 494,
+                "left": 0,
+                "width": 380,
+                "height": 152
+            },
+            "tileFilter": {},
+            "markdown": "[Overview de seguridad](/ui/security/overview?gtf=-2h&gf=all)\n\n[Vulnerabilidades críticas](/ui/security/vulnerabilities?gtf=-2h&gf=all&filters=riskLevel:CRITICAL)\n\n[Vulnerabilidades Altas](/ui/security/vulnerabilities?gtf=-2h&gf=all&filters=riskLevel:HIGH)\n\n[Todas las vulnerabilidades](/ui/security/vulnerabilities?gtf=-2h)\n"
+        },
+        {
+            "name": "Vulnerabilidades resueltas (7 días)",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 342,
+                "left": 0,
+                "width": 380,
+                "height": 152
+            },
+            "tileFilter": {},
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.resolved.new.global",
+                    "spaceAggregation": "SUM",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "SINGLE_VALUE",
+                "global": {
+                    "theme": "GREEN",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "COLUMN"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": [
+                        {
+                            "displayName": "",
+                            "visible": true,
+                            "min": "AUTO",
+                            "max": "AUTO",
+                            "position": "LEFT",
+                            "queryIds": [
+                                "A"
+                            ],
+                            "defaultAxis": true
+                        }
+                    ]
+                },
+                "heatmapSettings": {},
+                "singleValueSettings": {
+                    "showTrend": false,
+                    "showSparkLine": false,
+                    "linkTileColorToThreshold": false
+                },
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "value": 0,
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        },
+        {
+            "name": "Vulnerabilidades activas",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 0,
+                "width": 380,
+                "height": 152
+            },
+            "tileFilter": {
+                "timeframe": "-30m"
+            },
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.global",
+                    "spaceAggregation": "SUM",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "SINGLE_VALUE",
+                "global": {
+                    "theme": "ORANGE",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "AREA"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": []
+                },
+                "heatmapSettings": {},
+                "singleValueSettings": {
+                    "showTrend": false,
+                    "showSparkLine": false,
+                    "linkTileColorToThreshold": false
+                },
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "value": 0,
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "value": 1,
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 0,
+                "width": 190,
+                "height": 38
+            },
+            "tileFilter": {
+                "timeframe": "-24h to now"
+            },
+            "markdown": "[Ver detalles](/ui/security/vulnerabilities?gtf=-2h&gf=all&filters=riskLevel:CRITICAL)\n"
+        },
+        {
+            "name": "Markdown",
+            "tileType": "MARKDOWN",
+            "configured": true,
+            "bounds": {
+                "top": 266,
+                "left": 190,
+                "width": 190,
+                "height": 38
+            },
+            "tileFilter": {
+                "timeframe": "-24h to now"
+            },
+            "markdown": "[Ver detalles](/ui/security/vulnerabilities?gtf=-2h&gf=all&filters=riskLevel:HIGH)"
+        },
+        {
+            "name": "Nuevos problemas de seguridad (7 días)",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 380,
+                "width": 646,
+                "height": 304
+            },
+            "tileFilter": {},
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.new.global",
+                    "spaceAggregation": "AVG",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "GRAPH_CHART",
+                "global": {
+                    "theme": "YELLOW",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "COLUMN"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": [
+                        {
+                            "displayName": "",
+                            "visible": true,
+                            "min": "AUTO",
+                            "max": "AUTO",
+                            "position": "LEFT",
+                            "queryIds": [
+                                "A"
+                            ],
+                            "defaultAxis": true
+                        }
+                    ]
+                },
+                "heatmapSettings": {},
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "columnId": "Nuevos problemas de seguridad abiertos (global)",
+                        "rules": [
+                            {
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        },
+        {
+            "name": "Problemas resolvidos (7 dias)",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 342,
+                "left": 380,
+                "width": 646,
+                "height": 304
+            },
+            "tileFilter": {},
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.resolved.new.global",
+                    "spaceAggregation": "SUM",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "GRAPH_CHART",
+                "global": {
+                    "theme": "GREEN",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "COLUMN"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": [
+                        {
+                            "displayName": "",
+                            "visible": true,
+                            "min": "AUTO",
+                            "max": "AUTO",
+                            "position": "LEFT",
+                            "queryIds": [
+                                "A"
+                            ],
+                            "defaultAxis": true
+                        }
+                    ]
+                },
+                "heatmapSettings": {},
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        },
+        {
+            "name": "Críticas",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 152,
+                "left": 0,
+                "width": 190,
+                "height": 114
+            },
+            "tileFilter": {
+                "timeframe": "-30m"
+            },
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.global",
+                    "spaceAggregation": "MAX",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "filterOperator": "AND",
+                        "nestedFilters": [
+                            {
+                                "filter": "Risk Level",
+                                "filterType": "DIMENSION",
+                                "filterOperator": "OR",
+                                "nestedFilters": [],
+                                "criteria": [
+                                    {
+                                        "value": "CRITICAL",
+                                        "evaluator": "EQ"
+                                    }
+                                ]
+                            }
+                        ],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "SINGLE_VALUE",
+                "global": {
+                    "theme": "ORANGE",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "AREA"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": []
+                },
+                "heatmapSettings": {},
+                "singleValueSettings": {
+                    "showTrend": false,
+                    "showSparkLine": false,
+                    "linkTileColorToThreshold": false
+                },
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "value": 0,
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "value": 1,
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        },
+        {
+            "name": "Altas",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 152,
+                "left": 190,
+                "width": 190,
+                "height": 114
+            },
+            "tileFilter": {
+                "timeframe": "-30m"
+            },
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.global",
+                    "spaceAggregation": "MAX",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "filterOperator": "AND",
+                        "nestedFilters": [
+                            {
+                                "filter": "Risk Level",
+                                "filterType": "DIMENSION",
+                                "filterOperator": "OR",
+                                "nestedFilters": [],
+                                "criteria": [
+                                    {
+                                        "value": "HIGH",
+                                        "evaluator": "EQ"
+                                    }
+                                ]
+                            }
+                        ],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "SINGLE_VALUE",
+                "global": {
+                    "theme": "ORANGE",
+                    "seriesType": "LINE",
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "seriesType": "AREA"
+                        }
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "displayName": "",
+                        "visible": true
+                    },
+                    "yAxes": []
+                },
+                "heatmapSettings": {},
+                "singleValueSettings": {
+                    "showTrend": false,
+                    "showSparkLine": false,
+                    "linkTileColorToThreshold": false
+                },
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "value": 0,
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "value": 1,
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                }
+            }
+        }
+    ]
+}
