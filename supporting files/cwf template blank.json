@@ -10,10 +10,10 @@
         "workflowStatus": "__workflowStatus__",
         "githubUser": "__githubUser__",
         "githubRepo": "__githubRepo__",
-        "githubPath": "",
+        "githubPath": "__githubPath__",
         "overviewDB": "__overviewDB__",
         "readme": "__readme__",
-        "blogURL": "",
+        "blogURL": "__blogURL__",
         "addBackButtons": true,
         "powerups": false
     }
