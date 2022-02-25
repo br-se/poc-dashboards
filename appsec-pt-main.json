@@ -3,13 +3,14 @@
         "configurationVersions": [
             5
         ],
-        "clusterVersion": "1.231.223.20211213-130720"
+        "clusterVersion": "1.235.149.20220221-150413"
     },
     "id": "aws-pt-main",
     "dashboardMetadata": {
         "name": "Segurança de Aplicações",
-        "shared": false,
-        "owner": "POC"
+        "shared": true,
+        "owner": "gabriel.prioli@dynatrace.com",
+        "popularity": 1
     },
     "tiles": [
         {
@@ -45,11 +46,18 @@
             "visualConfig": {
                 "type": "TOP_LIST",
                 "global": {
-                    "theme": "GREEN",
-                    "seriesType": "LINE",
                     "hideLegend": false
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "color": "GREEN",
+                            "seriesType": "LINE"
+                        },
+                        "seriesOverrides": []
+                    }
+                ],
                 "axes": {
                     "xAxis": {
                         "displayName": "",
@@ -115,11 +123,18 @@
             "visualConfig": {
                 "type": "SINGLE_VALUE",
                 "global": {
-                    "theme": "DEFAULT",
-                    "seriesType": "LINE",
                     "hideLegend": false
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "color": "DEFAULT",
+                            "seriesType": "LINE"
+                        },
+                        "seriesOverrides": []
+                    }
+                ],
                 "axes": {
                     "xAxis": {
                         "displayName": "",
@@ -145,155 +160,6 @@
                                 "color": "#f5d30f"
                             },
                             {
-                                "color": "#dc172a"
-                            }
-                        ],
-                        "queryId": "",
-                        "visible": true
-                    }
-                ],
-                "tableSettings": {
-                    "isThresholdBackgroundAppliedToCell": false
-                },
-                "graphChartSettings": {
-                    "connectNulls": false
-                }
-            }
-        },
-        {
-            "name": "Problemas abertos por nível de severidade",
-            "tileType": "DATA_EXPLORER",
-            "configured": true,
-            "bounds": {
-                "top": 228,
-                "left": 0,
-                "width": 608,
-                "height": 266
-            },
-            "tileFilter": {
-                "timeframe": "-7d to now"
-            },
-            "customName": "Data explorer results",
-            "queries": [
-                {
-                    "id": "A",
-                    "metric": "builtin:security.securityProblem.open.new.global",
-                    "spaceAggregation": "SUM",
-                    "timeAggregation": "DEFAULT",
-                    "splitBy": [
-                        "Risk Level"
-                    ],
-                    "filterBy": {
-                        "nestedFilters": [],
-                        "criteria": []
-                    },
-                    "enabled": true
-                }
-            ],
-            "visualConfig": {
-                "type": "TOP_LIST",
-                "global": {
-                    "theme": "ORANGE",
-                    "seriesType": "LINE",
-                    "hideLegend": false
-                },
-                "rules": [],
-                "axes": {
-                    "xAxis": {
-                        "displayName": "",
-                        "visible": true
-                    },
-                    "yAxes": []
-                },
-                "heatmapSettings": {},
-                "thresholds": [
-                    {
-                        "axisTarget": "LEFT",
-                        "rules": [
-                            {
-                                "color": "#7dc540"
-                            },
-                            {
-                                "color": "#f5d30f"
-                            },
-                            {
-                                "value": 1,
-                                "color": "#dc172a"
-                            }
-                        ],
-                        "queryId": "",
-                        "visible": true
-                    }
-                ],
-                "tableSettings": {
-                    "isThresholdBackgroundAppliedToCell": false
-                },
-                "graphChartSettings": {
-                    "connectNulls": false
-                }
-            }
-        },
-        {
-            "name": "Problemas de segurança abertos",
-            "tileType": "DATA_EXPLORER",
-            "configured": true,
-            "bounds": {
-                "top": 0,
-                "left": 0,
-                "width": 608,
-                "height": 228
-            },
-            "tileFilter": {
-                "timeframe": "-30m"
-            },
-            "customName": "Data explorer results",
-            "queries": [
-                {
-                    "id": "A",
-                    "metric": "builtin:security.securityProblem.open.global",
-                    "spaceAggregation": "SUM",
-                    "timeAggregation": "DEFAULT",
-                    "splitBy": [],
-                    "filterBy": {
-                        "nestedFilters": [],
-                        "criteria": []
-                    },
-                    "enabled": true
-                }
-            ],
-            "visualConfig": {
-                "type": "SINGLE_VALUE",
-                "global": {
-                    "theme": "DEFAULT",
-                    "seriesType": "LINE",
-                    "hideLegend": false
-                },
-                "rules": [],
-                "axes": {
-                    "xAxis": {
-                        "displayName": "",
-                        "visible": true
-                    },
-                    "yAxes": []
-                },
-                "heatmapSettings": {},
-                "singleValueSettings": {
-                    "showTrend": false,
-                    "showSparkLine": true,
-                    "linkTileColorToThreshold": true
-                },
-                "thresholds": [
-                    {
-                        "axisTarget": "LEFT",
-                        "rules": [
-                            {
-                                "color": "#7dc540"
-                            },
-                            {
-                                "color": "#f5d30f"
-                            },
-                            {
-                                "value": 1,
                                 "color": "#dc172a"
                             }
                         ],
@@ -355,16 +221,16 @@
             "visualConfig": {
                 "type": "GRAPH_CHART",
                 "global": {
-                    "theme": "DEFAULT",
-                    "seriesType": "LINE",
                     "hideLegend": false
                 },
                 "rules": [
                     {
                         "matcher": "A:",
                         "properties": {
+                            "color": "DEFAULT",
                             "seriesType": "AREA"
-                        }
+                        },
+                        "seriesOverrides": []
                     }
                 ],
                 "axes": {
@@ -412,6 +278,193 @@
                 "graphChartSettings": {
                     "connectNulls": false
                 }
+            }
+        },
+        {
+            "name": "Problemas de segurança abertos",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 0,
+                "left": 0,
+                "width": 608,
+                "height": 228
+            },
+            "tileFilter": {
+                "timeframe": "-30m to -2m"
+            },
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.global",
+                    "spaceAggregation": "SUM",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "SINGLE_VALUE",
+                "global": {
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "color": "DEFAULT"
+                        },
+                        "seriesOverrides": []
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "visible": true
+                    },
+                    "yAxes": []
+                },
+                "heatmapSettings": {},
+                "singleValueSettings": {
+                    "showTrend": false,
+                    "showSparkLine": true,
+                    "linkTileColorToThreshold": true
+                },
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "rules": [
+                            {
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "value": 1,
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                },
+                "honeycombSettings": {}
+            },
+            "queriesSettings": {
+                "resolution": "",
+                "foldTransformation": "LAST_VALUE"
+            }
+        },
+        {
+            "name": "Problemas abertos por nível de severidade",
+            "tileType": "DATA_EXPLORER",
+            "configured": true,
+            "bounds": {
+                "top": 228,
+                "left": 0,
+                "width": 608,
+                "height": 266
+            },
+            "tileFilter": {
+                "timeframe": "-30m to -2m"
+            },
+            "customName": "Data explorer results",
+            "queries": [
+                {
+                    "id": "A",
+                    "metric": "builtin:security.securityProblem.open.global",
+                    "spaceAggregation": "SUM",
+                    "timeAggregation": "DEFAULT",
+                    "splitBy": [
+                        "Risk Level"
+                    ],
+                    "filterBy": {
+                        "nestedFilters": [],
+                        "criteria": []
+                    },
+                    "enabled": true
+                }
+            ],
+            "visualConfig": {
+                "type": "TOP_LIST",
+                "global": {
+                    "hideLegend": false
+                },
+                "rules": [
+                    {
+                        "matcher": "A:",
+                        "properties": {
+                            "color": "DEFAULT",
+                            "seriesType": "STACKED_COLUMN"
+                        },
+                        "seriesOverrides": [
+                            {
+                                "name": "CRITICAL",
+                                "color": "#ab0c17"
+                            },
+                            {
+                                "name": "HIGH",
+                                "color": "#dc172a"
+                            },
+                            {
+                                "name": "MEDIUM",
+                                "color": "#c9a000"
+                            },
+                            {
+                                "name": "LOW",
+                                "color": "#008cdb"
+                            }
+                        ]
+                    }
+                ],
+                "axes": {
+                    "xAxis": {
+                        "visible": true
+                    },
+                    "yAxes": []
+                },
+                "heatmapSettings": {},
+                "thresholds": [
+                    {
+                        "axisTarget": "LEFT",
+                        "columnId": "Open Security Problems (global)",
+                        "rules": [
+                            {
+                                "color": "#7dc540"
+                            },
+                            {
+                                "color": "#f5d30f"
+                            },
+                            {
+                                "color": "#dc172a"
+                            }
+                        ],
+                        "queryId": "",
+                        "visible": true
+                    }
+                ],
+                "tableSettings": {
+                    "isThresholdBackgroundAppliedToCell": false
+                },
+                "graphChartSettings": {
+                    "connectNulls": false
+                },
+                "honeycombSettings": {}
+            },
+            "queriesSettings": {
+                "resolution": "",
+                "foldTransformation": "LAST_VALUE"
             }
         }
     ]
