@@ -9,7 +9,7 @@
     "dashboardMetadata": {
         "name": "Segurança de Aplicações",
         "shared": true,
-        "owner": "gabriel.prioli@dynatrace.com",
+        "owner": "POC",
         "popularity": 1
     },
     "tiles": [
